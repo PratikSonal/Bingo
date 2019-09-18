@@ -8,12 +8,11 @@
  *
  * @author hp
  */
-import java.io.*;
 import java.net.*;
 public class Client {
     public static void main(String...args) throws Exception{
         Socket c=new Socket(InetAddress.getLocalHost(),12345);
         System.out.println("Connected to Server");
-        Game g1=new Game();
+        Login l1=new Login();
     }
 }
